@@ -1,5 +1,6 @@
-<?xml-model href="LosRemediosSA.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<losremediossa>
+<?xml version="1.0" encoding="UTF-8"?>
+<losremediossa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="LosRemediosSA.xsd">
     <pedidos>
         <sucursal codigo="ABANTERS">
             <trabajador>Miguel Perez Oñate</trabajador>
