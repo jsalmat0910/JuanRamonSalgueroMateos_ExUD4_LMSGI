@@ -1,0 +1,13 @@
+<!ELEMENT losremediossa (pedidos*)>
+<!ELEMENT pedidos (sucursal+)>
+    <!ATTLIST sucursal codigo ID #REQUIRED>
+<!ELEMENT sucursal (trabajador, fecha_del_pedido, observaciones, articulo+)>
+<!ELEMENT trabajador (#PCDATA)>
+<!ELEMENT fecha_del_pedido (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT articulo (numero_de_unidades, precio_unidad, observaciones, revision)>
+    <!ATTLIST articulo codigo ID #REQUIRED>
+<!ELEMENT numero_de_unidades (#PCDATA)>
+<!ELEMENT precio_unidad (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT revision (#PCDATA)>

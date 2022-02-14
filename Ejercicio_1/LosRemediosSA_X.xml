@@ -1,0 +1,39 @@
+<?xml-model href="LosRemediosSA.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<losremediossa>
+    <pedidos>
+        <sucursal codigo="ABANTERS">
+            <trabajador>Miguel Perez Oñate</trabajador>
+            <fecha_del_pedido>2020-10-09</fecha_del_pedido>
+            <observaciones>urgente</observaciones>
+            <articulo codigo="AAA-001">
+                <numero_de_unidades>3</numero_de_unidades>
+                <precio_unidad>12.99</precio_unidad>
+                <observaciones>Fragil</observaciones>
+                <revision>10</revision>
+            </articulo>
+            <articulo codigo="AAA-002">
+                <numero_de_unidades>1</numero_de_unidades>
+                <precio_unidad>49.99</precio_unidad>
+                <observaciones> Muy fragil</observaciones>
+                <revision>5</revision>
+            </articulo>
+        </sucursal>
+        <sucursal codigo="ATERSIVA">
+            <trabajador>Atonio Lopez Vega</trabajador>
+            <fecha_del_pedido>2020-05-12</fecha_del_pedido>
+            <observaciones>incompleto</observaciones>
+            <articulo codigo="ACS-015">
+                <numero_de_unidades>7</numero_de_unidades>
+                <precio_unidad>1.99</precio_unidad>
+                <observaciones>Fragil</observaciones>
+                <revision>20</revision>
+            </articulo>
+            <articulo codigo="ACS-092">
+                <numero_de_unidades>1</numero_de_unidades>
+                <precio_unidad>169.99</precio_unidad>
+                <observaciones> Muy fragil</observaciones>
+                <revision>2</revision>
+            </articulo>
+        </sucursal>
+    </pedidos>
+</losremediossa>
